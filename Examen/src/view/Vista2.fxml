@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.5302013422818792" orientation="VERTICAL" prefHeight="300.0" prefWidth="400.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="98.0" prefWidth="398.0" styleClass="background" stylesheets="@css/Myview.css">
+               <children>
+                  <Label layoutX="65.0" layoutY="102.0" styleClass="label3" stylesheets="@css/Myview.css" text="TELEFONO" />
+                  <Label layoutX="64.0" layoutY="25.0" styleClass="label3" stylesheets="@css/Myview.css" text="NOMBRE" />
+                  <Label layoutX="64.0" layoutY="66.0" styleClass="label3" stylesheets="@css/Myview.css" text="APELLIDOS" />
+                  <TextField layoutX="174.0" layoutY="20.0" />
+                  <TextField layoutX="174.0" layoutY="61.0" />
+                  <TextField layoutX="174.0" layoutY="97.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" styleClass="background" stylesheets="@css/Myview.css">
+               <children>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="149.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="25.0">
+                     <image>
+                        <Image url="@img/github_white.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

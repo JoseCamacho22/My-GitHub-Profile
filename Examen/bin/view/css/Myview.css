@@ -1,0 +1,28 @@
+.background {
+    
+    -fx-background-color: White;
+}
+
+.label1{
+	-fx-font-family: "Arial";
+	-fx-font-size: 20pt;
+    -fx-text-fill: #01DFD7;
+}
+
+.label2{
+	
+	-fx-font: 15pt "Arial"
+}
+
+.label3{
+	-fx-font: italic 10pt "Arial";
+	-fx-opacity:0.5;
+}
+
+.label4{
+	-fx-background-color:#01DFD7;
+	-fx-font: 12pt "Arial";
+	-fx-border-color:White;
+	-fx-text-fill: white;
+	
+}
